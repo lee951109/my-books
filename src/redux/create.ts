@@ -12,6 +12,7 @@ const create = () => {
     composeWithDevTools(applyMiddleware(sagaMiddleware))
   );
 
+  //saga를 사용해서 비동기를 좀 더 편리하게 사용한다.
   sagaMiddleware.run(rootSaga);
 
   return store;
