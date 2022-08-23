@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Input, Row } from "antd";
-
+import styles from "./Signin.module.css";
 const Signin = () => {
   return (
     <Row align="middle">
